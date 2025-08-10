@@ -1,8 +1,12 @@
 export default function handler(req, res) {
   const images = [
-    "https://files.catbox.moe/abcd12.png",
-    "https://files.catbox.moe/efgh34.jpg",
-    "https://files.catbox.moe/ijkl56.png"
+    "https://files.catbox.moe/horqcv.png",
+    "https://files.catbox.moe/pn388z.jpg",
+    "https://files.catbox.moe/88atwf.png"
+    "https://files.catbox.moe/x1hsd9.png",
+    "https://files.catbox.moe/y5qj41.jpg",
+    "https://files.catbox.moe/rxzu4p.png",
+    "https://files.catbox.moe/zdoy55.png"
   ];
 
   const randomImage = images[Math.floor(Math.random() * images.length)];
